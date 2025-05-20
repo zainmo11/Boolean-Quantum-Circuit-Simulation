@@ -14,6 +14,8 @@ The notebook provides quantum circuit implementations of fundamental logic gates
 - NOR Gate
 - Full Adder Circuit
 - 1-Bit Comparator (A > B)
+- Parity Check Circuit
+- Majority Voting Circuit
 
 ## Prerequisites
 
@@ -67,6 +69,16 @@ Implements a 1-bit full adder with carry-in and carry-out:
 ### 1-Bit Comparator
 Implements a 1-bit comparator checking if A > B.
 
+### Parity Check
+Implements a 3-bit parity checker that determines if the number of 1s in the input is odd or even:
+- Output 0: Even number of 1s in input (even parity)
+- Output 1: Odd number of 1s in input (odd parity)
+
+### Majority Voting
+Implements a 3-input majority voter:
+- Output 1: If majority of inputs (2 or more) are 1
+- Output 0: If majority of inputs (2 or more) are 0
+
 ## Usage
 
 Each section of the notebook runs a simulation for all possible input combinations and displays:
@@ -85,6 +97,7 @@ This notebook serves as an excellent introduction to:
 - Quantum gate operations
 - Quantum computing's relationship to classical computation
 - Qiskit's simulation capabilities
+- Implementation of multi-qubit logic circuits
 
 ## Future Extensions
 
@@ -93,6 +106,8 @@ Possible extensions to this notebook could include:
 - Quantum multiplexers and decoders
 - Sequential logic elements (flip-flops, registers)
 - More complex ALU components
+- Quantum error correction codes
+- Multi-bit comparators and equality checkers
 
 ## References
 
